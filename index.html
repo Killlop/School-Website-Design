@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+    <title>Fort-Knox</title>
+
+    <!-- icon -->
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">  
+
+    <!-- import jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- import font-awesome -->
+    <script src="https://kit.fontawesome.com/c4d766b054.js" crossorigin="anonymous"></script>
+    <!-- import bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- connect styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><i class="fas fa-school text-white ms-3 nav-link"></i></a>
+              <button class="navbar-toggler white-color-bg " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item me-3">
+                    <a class="nav-link text-white" aria-current="page" href="#">Uchazeči o studium</a>
+                  </li>
+                  <li class="nav-item me-3">
+                    <a class="nav-link text-white" href="#">Žáci a rodiče</a>
+                  </li>
+                  <li class="nav-item me-3">
+                    <a class="nav-link text-white" href="#">Veřejnost</a>
+                  </li>
+                  <li class="nav-item me-3">
+                      <a class="nav-link text-white" href="#" id="arrow" onclick="scrollTopAnimated()"><i class="fas fa-arrow-up"></i></a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    
+                  <button class="btn btn-outline-light" id="searchcolor" type="submit"> <i class="fas fa-search"></i> </button>
+                </form>
+              </div>
+            </div>
+        </nav>
+
+        <header class="container-fluid mb-3 mt-3" id="header">
+            
+
+
+            <div id="header" class="row card">
+              <h1 class="text-white">Fort-Knox</h1>
+            </div>
+        </header>
+
+        <div class="container-fluid mb-3 mt-3 white-color-bg">
+            <div class="row">
+                <h2 class="to-primary">
+                    O nás
+                </h2>
+                <p class="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo necessitatibus consectetur ipsum. Eligendi obcaecati vitae sint laudantium doloremque accusantium cupiditate nam asperiores eius odio esse ipsum voluptatibus voluptate, repellat maxime voluptates, beatae natus error labore in consectetur. Enim quam esse quibusdam eos, a saepe sit amet iure ipsum. Reiciendis dignissimos dolore velit porro et minus quia, sunt ducimus assumenda sint iste dolorem enim doloribus eum repellat exercitationem tempora perspiciatis recusandae, id soluta iusto necessitatibus. Magnam ea inventore molestiae commodi soluta eligendi, obcaecati fuga qui sunt omnis. Sed rem quo repellat neque ex doloremque, cum beatae, minus ipsam minima soluta optio!</p>
+                
+                <hr>
+                <div class="alert alert-success" role="alert">
+                    <q class=" to-primary ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis quaerat id dolore debitis magnam at deserunt repellendus! Delectus, fuga repudiandae.</q>
+                </div>
+                <hr>
+                <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores beatae nemo, dolores ad qui doloribus odit unde dolorem eveniet perspiciatis, ullam amet quis repellat sequi, voluptatem ab? Commodi alias saepe voluptatem nisi autem voluptatibus quo, tenetur vitae. Eius minima expedita iusto voluptatum voluptatibus animi debitis autem. Nostrum tempora iusto assumenda beatae libero suscipit eaque. Reprehenderit, eligendi facilis inventore odit exercitationem eos tenetur id est dignissimos animi atque nisi quibusdam vitae quo dolorum dolores asperiores consequuntur modi! Explicabo eligendi quasi perspiciatis, temporibus sed iste eveniet autem rerum natus dignissimos illo molestias iure modi voluptates. Magni ipsa, quaerat mollitia aspernatur blanditiis tempore.</p>
+            
+
+                <div class="col-lg-4">
+                    <img class="img-fluid img-so-one img-thumbnail" src="img/img1_1.jpg" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <img class="img-fluid img-so-one img-thumbnail" src="img/img2_1.jpg" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <img class="img-fluid img-so-one img-thumbnail" src="img/img3_1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid mb-3 mt-3 white-color-bg">
+            <div class="row">
+                <h2 class="to-primary">
+                    Studijní obory
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto tenetur facere quia laboriosam veritatis minima in magnam magni. Nihil repellendus cum suscipit facere quisquam. Similique mollitia delectus ab. Fuga quo, vero vel, at delectus repellendus repudiandae provident obcaecati quae aperiam nostrum numquam dolore nobis aut harum, incidunt omnis. Porro fugit, cumque eaque minima quo assumenda? In, aliquid! Repellendus magni tempora unde id voluptatum dolorem reprehenderit temporibus aspernatur veniam enim dolor optio ea, quae fuga adipisci numquam sunt esse. Cupiditate sunt ex, facilis earum labore perferendis laboriosam vero explicabo eveniet eos. Excepturi laboriosam sed odit tenetur iusto quae possimus quasi libero.</p>
+                
+                <!-- cards and stuff -->
+                
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, totam! Exercitationem, sint dolor ipsam blanditiis accusantium perspiciatis quos sapiente repellat.</p>
+                <ul class="ms-5">
+                    <li>Průmyslová</li>
+                    <li>Zbrojení</li>
+                    <li>Informační</li>
+                    <li>Reportážní</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ad consequatur tempora assumenda, provident sint distinctio ex iste quam vel eligendi cum esse suscipit inventore ratione labore dolorem necessitatibus, ipsa aliquid adipisci optio obcaecati cumque quisquam. Omnis veritatis officia mollitia tempore, a repellat id aperiam soluta molestias deserunt praesentium numquam.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium praesentium, eligendi maxime at dicta, architecto natus molestias perferendis voluptate reiciendis soluta beatae. Officia eligendi, nulla quidem dolorum adipisci laborum deleniti minima et aliquam libero dignissimos nesciunt deserunt aliquid quibusdam harum odit fugit ea repudiandae praesentium culpa aut sapiente. Omnis, sapiente. Quos porro, aperiam quidem iure minima aliquid in perferendis consectetur at ipsam eos esse voluptates error beatae harum repellendus debitis ex, commodi temporibus. Amet odio atque delectus sapiente in a cum quasi eum. Aliquam tempora perferendis quasi quidem est. Voluptate dolores dolore id quos quam nihil ea pariatur dolorem illum.</p>
+
+            </div>
+        </div>
+
+        <div class="container-fluid mb-3 mt-3 white-color-bg">
+            <div class="row">
+                <h2 class="to-primary" id="super-non-stable-heading">
+                    Projekty
+                </h2>
+                <div class="row row-cols-1 row-cols-lg-3 g-4">
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./img/skyscraper.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title to-primary">Stavba mrakodrapu</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos possimus ratione temporibus hic. Ducimus nihil quia sint provident debitis eum ipsa.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./img/red_cup.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title to-primary">Red-Cup Certifikát</h5>
+                          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto corrupti commodi consequatur eveniet!</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./img/tank_master.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title to-primary">Tankový řidič</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eaque repudiandae voluptatum culpa ad.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./img/drone.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title to-primary">Správa dronů</h5>
+                          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum totam, rerum neque aliquam earum illo tempore repellendus assumenda, provident porro iste non quos pariatur! Possimus.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                          <img src="./img/barracks.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title to-primary">Stavba kasáren</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat minus iusto consequuntur quo hic vero!.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card h-100">
+                          <img src="./img/chemsetry.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title to-primary">Chemické experimenty</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat soluta ducimus aliquam cupiditate eligendi pariatur voluptatum vitae nihil magni officiis?.</p>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+
+
+            </div>
+        </div>
+
+        <div class="container-fluid mb-3 mt-3 white-color-bg">
+            <div class="row">
+                <h2 class="to-primary pb-0">
+                    Kontaktovat
+                </h2>
+                <form class="col-lg-6">
+                    <div class="">
+                        <label for="exampleFormControlInput1" class="form-label">Vaší e-mail adresa</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                      </div>
+                      <div class="">
+                        <label for="text-topic" class="form-label">Téma zprávy</label>
+                        <input type="text" class="form-control" id="text-topic" aria-describedby="text-topic required">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Zpráva</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                      </div>
+                      <div class="d-grid">
+                          
+                          <button id="send-btn" class="btn btn-primary to-primary-bg" type="submit">Odeslat</button>
+                      </div>
+                </form>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="./img/maps.jpg" alt="">
+                    
+                </div>
+            </div>
+        </div>
+
+        <footer class="container-fluid mt-3">
+            <div class="row justify-content-center align-items-start">
+                <div class="col-lg-4 text-center">
+                    <h3>Co je Fort knox?</h3>
+                    <p><i class="fas fa-school me-3 ms-3 text-white"></i> Fort knox je zbrojová, průmyslová a sportovní škola v arealu Jižní M  oravie. Budova školy byla výstavená ještě před druhou světovou válkou.</p>
+                    <p><i class="fas fa-envelope-square pe-2"></i> fort-knox@school.cz</p>
+                    <p><i class="fas fa-phone pe-2"></i>+420 555 444 333</p>
+                    <p><i class="fas fa-address-card pe-2"></i>Čichnova 23, 624 00 Brno-Komín</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <h3>Navigace</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Uchazeči o studium</a>
+                        </li>
+                        <li>
+                            <a href="#">Žaci a rodiče</a>
+                        </li>
+                        <li>
+                            <a href="#">Veřejnost</a>
+                        </li>
+                        <li>
+                            <a href="#">Partnery</a>
+                        </li>
+                        <li>
+                            <a href="#">Projekty</a>
+                        </li>
+                        <li>
+                            <a href="#">Školní jídelna</a>
+                        </li>
+                    </ul>
+                </div>
+               
+                <div class="col-lg-4 text-center">
+                    <h3>Sociální sítě</h3>
+                    <ul>
+                        <li>
+                            <a href="#"><i class="fab fa-instagram fa-1x"> School-Fort-Knox</i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-facebook-f"> School-Fort-Knox</i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"> School-Fort-Knox</i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-12 text-center to-secondary-green-bgcolor">
+                    &#169; Copyright
+                    <a>Fort knox</a> <script>document.write(new Date().getFullYear());</script> všechna práva vyhrazena
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- connect js -->
+    <script src="main.js"></script>
+    <!-- import bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
